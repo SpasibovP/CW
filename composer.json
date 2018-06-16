@@ -1,5 +1,5 @@
 {
-    "name": "bb/blog",
+    "name": "cw/law",
     "description": "blog",
     "type": "project",
     "license": "MIT",
@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Bb\\Blog\\": "private/"
+            "Cw\\Law\\": "private/"
         }
     }
 }
