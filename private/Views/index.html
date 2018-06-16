@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+     <head>
+     <title>Коллегия Адвокатов «Попов и Партнеры» </title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico" >
+     <link rel="shortcut icon" href="images/favicon.ico"  />
+     <link  rel="stylesheet" media="screen" href="css/style.css">
+     <link  rel="stylesheet" href="css/camera.css">
+     <link  rel="stylesheet" href="css/carousel.css">
+     <link  rel="stylesheet" href="css/font-awesome.css">
+ 
+     </head>
+     <body>
+<!--==============================header=================================-->
+<header>
+<div class="container_12">
+    <div class="grid_12">
+           <h1><a href="index.html"><img src="images/logo.png" alt="Prospect best opportunity to succeed"></a> </h1>
+        <div class="menu_block">
+               <nav>
+            <ul class="sf-menu">
+                   <li class="current"><a href="index.html">ГЛАВНАЯ</a>  <ul>
+                       <li><a href="#">РАЗДЕЛ</a></li>
+                       
+                       <li><a href="#">РАЗДЕЛ </a>
+                    <ul>
+                           <li><a href="#">ПОДРАЗДЕЛ</a></li>
+                           <li><a href="#">ПОДРАЗДЕЛ</a></li>
+                           <li><a href="#">ПОДРАЗДЕЛ</a></li>
+                         </ul>
+                  </li>
+                  <li><a href="#">РАЗДЕЛ</a></li>
+
+                     </ul></li>
+                   <li><a href="index-1.html">О КОЛЛЕГИИ </a> </li>
+                   <li><a href="index-2.html">ПРАКТИКИ</a> </li>
+                   <!--<li><a href="index-3.html">ИНФОРМАЦИЯ</a> </li>-->
+                   <li><a href="index-4.html">КОНТАКТЫ</a> </li>
+                 </ul>
+          </nav>
+               <div class="clear"></div>
+             </div>
+        
+         </div>
+  </div>
+</header>
+
+<div class="modal fade" id="registration_modal" tabindex="-1" role="dialog" aria-labelledby="registration_modal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Регистрация</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <?php include_once "registration_form.php";?>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                <button type="button" class="btn btn-primary">Зарегистрироваться</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <form method="post" action="/account/registration">
+        <div class="form-group">
+            <label for="login">Имя</label>
+            <input name="name" type="text" class="form-control" id="name" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+            <label for="login">Логин</label>
+            <input name="login" type="text" class="form-control" id="login" placeholder="Введите логин">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Пароль</label>
+            <input name="pwd" type="password" class="form-control" id="pwd" placeholder="Введите пароль">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input name="email" type="email" class="form-control" id="email" placeholder="Введите e-mail">
+        </div>
+        <div>
+            <input type="submit" value="Send">
+        </div>
+    </form>
+
+
+<div class="page1_block">
+  <div class="container_12">
+    <div class="grid_3">
+      <div class="box ic1 "><div class="maxheight">
+        <h3>Большой опыт юридической практики для юридических и физических лиц</h3><i class=" icon-briefcase"></i>
+          <p>Наша команда профессионалов располагает широким практическим опытом в различных сферах права. Постоянно повышая квалификацию добиваемся успеха в своей работе.</p>
+        <!--<a href="#" class="btn">подробнее</a>--></div>
+      </div>
+    </div>
+    <div class="grid_3">
+      <div class="box ic2"><div class="maxheight">
+        <h3>ПРОФЕССИОНАЛЬНАЯ ЗАЩИТА И ПРЕДСТАВЛЕНИЕ ВАШИХ ИНТЕРЕСОВ В СУДЕ</h3><i class="  icon-legal"></i><p>Услуги по судебному представительству для граждан (компаний) в мировых судах и судах общей юрисдикции, в арбитражных судах предоставляются на всех стадиях процесса.</p>
+        <!--<a href="#" class="btn">подробнее</a>--></div>
+      </div>
+    </div>
+    <div class="grid_3">
+      <div class="box ic3"><div class="maxheight">
+        <h3>БЫСТРАЯ И КАЧЕСТВЕННАЯ ПОДГОТОВКА ДОКУМЕНТОВ ЛЮБОЙ СЛОЖНОСТИ</h3><i class="  icon-pencil"></i><p>Претензии, жалобы, исковые заявления, ходатайства, договоры, соглашения (брачный договор, соглашение о разделе имущества). И любые другие документы.</p>
+        <!--<a href="#" class="btn">подробнее</a>--></div>
+      </div>
+    </div>
+    <div class="grid_3">
+      <div class="box ic4"><div class="maxheight">
+        <h3>ПОДРОБНАЯ КОНСУЛЬТАЦИЯ <br>ПО ЛЮБЫМ ПРАВОВЫМ ВОПРОСАМ</h3><i class="  icon-question-sign"></i><p>Юридическая консультация по любым вопросам проводится высококвалифицированными юристами с большим стажем успешной практической деятельности.</p>
+        <!--<a href="#" class="btn">подробнее</a>--></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="container_12 car">
+  <div class="grid_12">
+    <h3><span>Отзывы</span></h3>
+    <div class="carousel_wrapper">
+    <a href="#" class="prev1"></a><a href="#" class="next1"></a><div>
+      <ul class="carousel1">
+      <li>
+        <p><em>Благодарю Вас за быструю и качественную работу, Ваши услуги неоценимы и помогли мне в непростой ситуации!</em><br>Вадим, Санкт-Петербург</p>
+        <!-- <a href="#" class="btn">read more</a>-->
+      </li>
+            <li>
+        <p><em>Здравствуйте, большое спасибо за оказанную Вами помощь, благодаря Вам моя проблема была решена быстро. </em><br>Елена, Тосно.</p>
+        <!-- <a href="#" class="btn">read more</a>-->
+      </li>
+            <li>
+        <p><em>Добрый день, Михаил! Благодарю за всю проделанную работу! Теперь уверен, что безвыходных ситуаций не бывает.</em><br>Владимир, Санкт-Петербург</p>
+       <!-- <a href="#" class="btn">read more</a>-->
+      </li>
+      </ul>
+    </div>
+  </div>
+</div></div></div>
+<!--=======content================================-->
+<div class="content page1">
+  <div class="container_12">
+    <div class="grid_4">
+      <div class="pad1">
+        <h3>Практика</h3>
+        <ul class="list">
+         <li><a href="index-2.html">Правовое сопровождение бизнеса</a></li>
+         <li><a href="index-2.html">Арбитражный суд</a></li>
+         <li><a href="index-2.html">Юридическим лицам</a></li>
+         <li class="mb0"><a href="index-2.html">Физическим лицам</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid_8 emp_box">
+      <h3></h3>
+      <div class="grid_4 alpha ">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page1_img1.jpg" alt="">
+          <div class="extra_wrapper"><a href="index-2.html"><p><strong>Правовое сопровождение бизнеса</strong> </p></a>
+          </div></div>
+        </div>
+      </div>
+      <div class="grid_4 omega">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page1_img2.jpg" alt="">
+          <div class="extra_wrapper"><a href="index-2.html"><p><strong>Информация для физических лиц</strong></p></a>
+          </div></div>
+        </div>
+      </div>
+      <div class="clear cl1"></div>
+      <div class="grid_4 alpha">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page1_img3.jpg" alt="">
+          <div class="extra_wrapper"><a href="index-2.html"><p><strong>Информация для юридических лиц</strong></p></a> </div>
+        </div></div>
+      </div>
+      <div class="grid_4 omega">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page1_img4.jpg" alt="">
+          <div class="extra_wrapper"><a href="index-2.html"><p><strong>Арбитражный суд</strong></p></div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+
+  <div class="container_12">
+    <div class="grid_12"><footer>
+      <div class="socials">
+      <a href="#">Сантк-Петербург, Московский проспект, 208</a> | 
+      <a href="#">Телефон +7 (812)555-55-33</a> 
+      <a href="#"></a></div>
+      <div class="copy">Коллегия Адвокатов «Попов и Партнеры»  &copy; 2018 | <a href="index-5.html"> ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a> <!--{%FOOTER_LINK} --></div></footer>
+      
+    </div>
+  </div>
+
+</body>
+</html>
